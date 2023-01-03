@@ -106,3 +106,13 @@ Program starts with the entry point. From the main function you can call other f
 ## Tasks
 | Task | File | Description |
 |------|------|-------------|
+Scripting | [0-preprocessor](./0-preprocessor) | runs a C file 'CFILE' through the preprocessor and save the result into another file 'c'
+Scripting | [1-compiler](./1-compiler) | compiles a C file 'CFILE' but does not link. output file should have .o extension instead of .c
+Scripting | [2-assembler](./2-assembler) | generates the assembly code of a C code and save it in an output file with the extension .s
+Scripting | [3-name](./3-name) | compiles a C file and creates an executable named cisfun
+C Program | [4-puts](./4-puts) | prints to standard output using the function 'puts'
+C Program | [5-printf.c](./5-printf.c) | prints to standard output using the function 'printf'
+C Program | [6-size.c](./6-size.c) | prints the size of various types on the computer it is compiled and run on
+Scripting | [100-intel](./100-intel) | generates assembly code (Intel syntax) of a C code and save it in an output file with the extension '.s'
+C Program | [101-quote.c](./101-quote.c) | prints to standard error using the system function 'write'
+
