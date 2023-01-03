@@ -1,8 +1,24 @@
 # 0x00. C-Hello, World
 ``C``
-## Concept
+
+---
+all ``C`` files are compiled using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+all ``C`` files use the ``Betty`` style
+---
+
+**Resource**
+* [C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA)
+* [Learning to program in C](https://www.youtube.com/watch?v=FwpP_MsZWnU)
+
+**Note**
 * C is an imperative (procedural) language created by Dennis MacAlistair Ritchie
 * C file needs to be compiled (for instance gcc) to create an executable file
+
+**Why is C awesome**
+* It is the base language for other high level language (e.g., Python, Ruby, Java, JavaScript)
+* It is the coding language of choice for kernel development (A kernel is the contral part of an operating system. It manages the tasks of computer and hardware - most notably memory and CPU time).
+* Writing code in C ultimately tell you how a computer really works
+* C code is both quite portable and efficient. It is ideal for applications which require high performanced and low memory overhead.
 
 **Declaration**  
 Syntax: ``type var_name;``  
@@ -57,10 +73,28 @@ long | 8 bytes
 
 1 byte = 8bit :: value range: 1 byte = 2^8 = 256  
 therefore, char: value range: -128 to 127  
-unsigned type:- type restricted to hold positive value, hence enlarged by 2.
+unsigned type:- type restricted to hold positive value, hence enlarged by 2.  
+ANSI C defines the following rules:
+* short int <= int <= long int
+* float <= double <= long double
+
+Type Casting
+```
+float f;
+int i = 10;
+f = (float)i; /* assigned 10.0 to f */
+
+f = 3.14;
+i = (int)f; /* assigned 3 to i */
+
+**C Standardization**
+* "K & R" C
+* ANSI C - (aka C89 or C90): most portable, flags -ansi, -std=c89 (default)
+* C99: extends C89/C90, new data types, varable length arrays.
+
 
 The entry point | main  
-Program starts with the entry point. From the main function you can call other functions, when main returns, the program stops.
+Program starts with the entry point. From the main function you can call other functions, when main returns, the program stops.  
 ``int main(void)``  
 ``int main(int argc, char **argv)``  
 ``int main(int argc, char **argv, char **env)``
