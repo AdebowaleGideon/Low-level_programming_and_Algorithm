@@ -3,8 +3,7 @@
 
 ---
 * all ``C`` files are compiled using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-* all ``C`` files use the ``Betty`` style
- 
+* all ``C`` files use the ``Betty`` style   
 **Note:** The hash-bang direcdtive '#!" is actually processed by the kernel: when a file starts with 0x23, 0x21 (which is #!) the kernel will interpret what follows as the path to executable and attempt to run.
 ---
 
