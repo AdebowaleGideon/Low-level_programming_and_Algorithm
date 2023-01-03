@@ -1,0 +1,3 @@
+#!/bin/bash
+# generates the assembly code of a C code and save it in an output file with the extension .s
+gcc -S "$CFILE" -o ./${CFILE/".c"/".s"}

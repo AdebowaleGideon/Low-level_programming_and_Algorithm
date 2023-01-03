@@ -1,0 +1,3 @@
+#!/bin/bash
+# compiles a C file 'CFILE' but does not link. output file should have .o extension instead of .c
+gcc -c "$CFILE" -o ./${CFILE/".c"/".o"}
