@@ -9,7 +9,8 @@ Debugging is the process of finding and fixing errors in software that prevents 
 * [The Feynman Technique](https://fs.blog/feynman-learning-technique/?fbclid=IwAR2K5_BGPVo0QjJXkOIIqNsqcXK4lTskPWJvA0asKQIGtCPWaQBdKmj1Ztg)
 
 ## Tasks
-| Task | Files | Description
+| Task | Files | Description |
+|------|-------|-------------|
 0 | [0-main.c](./0-main.c) | update the main function so the output is '0 is zero'.
 1 | [1-main.c](./1-main.c) | comment out the part of the code that causes the output to go into an infinite loop.
 2 | [2-main.c](./2-main.c), [2-largest_number.c](./2-largest_number.c) | Fix the code so that it correctly prints out the largest of three numbers, no matter the case.
