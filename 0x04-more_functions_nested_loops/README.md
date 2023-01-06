@@ -1,10 +1,10 @@
 # 0x04. C - More functions, more nested loops
 ``C``
 
----
+
 gcc flag used during compilation:  
 ``gcc -Wall -pedantic -Werror -Wextra -std=gnu89``
----
+
 
 ## Tasks
 | File | Description |
