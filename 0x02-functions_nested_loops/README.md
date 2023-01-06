@@ -7,7 +7,25 @@ gcc -Wall -pedantic -Werror -Wextra -std=gnu89
 ```
 
 **Note**  
-**C - Header Files**
+**C - Functions**  
+A function is a group of statements that together perform a task. A function definition in C programming consists of a function header and a function body.
+```
+return_type function_name( parameter list ) {
+    body of the function
+}
+```
+* Return Type: is the data type of the value the function returns. some functions perform the desired operations without returning a value. In this case, the return_type is the keyword **void**.
+* Function Name: actual (callable) name of the function.
+* Parameter: is a placeholder. when a function is invoked, the **argument** passed to the function is accepted by the parameter. Parameters are optionals.
+* Function Body: contains a collection of statements that defines what the function does.
+
+While calling a function, there are two ways in which arguments can be passed to a function -
+* **Call by value:** This method copies the actual value of an argument into the parameter of the function. In this case, changes made to the parameter inside the function have no effect on the argument.
+* **Call by reference:** This method copies the address of an argument into the parameter. Inside the function, the address is used to access the actual argument used in the call. This means that changes made to the parameter affect the argument.
+
+By defualt, C uses **call by value** to pass arguments.
+
+**C - Header Files**  
 A header file is a file with extension **.h** which contains C function declarations and macro definitions to be shared between several source files. There are two type of header files: ones that the programmer writes and ones that come with the compiler.  
 You request to use a header file in your program by including it with the C preprocessing directive **#include**
 
