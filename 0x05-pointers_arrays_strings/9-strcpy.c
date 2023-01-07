@@ -1,5 +1,5 @@
 /**
- * strcpy - copies the string pointed to by 'src', including the terminating
+ * _strcpy - copies the string pointed to by 'src', including the terminating
  * null byte (\0), to the buffer pointed to by 'dest'.
  * @src: pointer to content source
  * @dest: pointer to content destination
