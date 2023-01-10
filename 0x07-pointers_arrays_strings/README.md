@@ -25,6 +25,8 @@ int val = a[2][3];	/* accessing the 4th col of the 3rd row */
 ```
 While specifying value for the row can be omitted, the col can never be as the memory needs to be how much memory resevervation is need for the inner content ahead at time of declaration.
 
+note: memory area is different from string as a string is null byte terminated, while the size of the memory area buffer must be provided for any modification to the buffer. **This earmarks why strcpy is different from memcpy and other similar functions.**
+
 # Tasks
 | File | Description |
 |------|-------------|
