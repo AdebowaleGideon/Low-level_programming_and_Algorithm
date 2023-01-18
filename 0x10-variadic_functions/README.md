@@ -4,7 +4,7 @@
 **Resource**
 * [Why Variadic Functions are Used](https://www.gnu.org/software/libc/manual/html_node/Why-Variadic.html)
 * [Example of a Variadic Function](https://www.gnu.org/software/libc/manual/html_node/Variadic-Example.html)
-
+* [Const keyword](https://www.youtube.com/watch?v=1W4oyuOdXv8)
 
 **Note**  
 `stdarg.h` is a header in the C standard library that allows functions to accept an indefinite number of arguments. It provides facilities for stepping through a list of function arguments of unknown number and type.
@@ -83,3 +83,7 @@ void MyPrintf(const char *format, ...)
 
 | File | Description |
 |------|-------------|
+[0-sum_them_all.c](./0-sum_them_all.c) | function returns the sum of all its parameters
+[1-print_numbers.c](./1-print_numbers.c) | prints numbers including the separator, followed by a new line
+[2-print_strings.c](./2-print_strings.c) | prints strings, followed by a new line
+[3-print_all.c](./3-print_all.c) | prints anything based on stored argument type
